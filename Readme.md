@@ -77,7 +77,7 @@ Animated Share Buttons/
 ---
 
 ## 🌐 Demo Preview
-🔗 *Live Demo:* [https://mehdi-dev-sudo.github.io/Animated-Share-Buttons/]
+🔗 *Live Demo:* (https://mehdi-dev-sudo.github.io/Animated-Share-Buttons/)
 
 ---
 
