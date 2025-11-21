@@ -43,11 +43,13 @@ Each button triggers dynamic hover, morphing, and motion effects implemented wit
 ---
 
 ## 📂 File Structure
+```
 Animated Share Buttons/
 ├── index.html        # Main layout and content sections
 ├── style.css         # Variable system, animations, and UI design
 ├── script.js         # Share logic, modal, particles, and analytics handler
 └── assets/           # (optional) images, previews, or favicon
+```
 
 ---
 
