@@ -62,7 +62,6 @@ Animated Share Buttons/
 
 ---
 
-```markdown
 ## 🕹 Animation Showcase
 | Style | Description |
 |-------|--------------|
