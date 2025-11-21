@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Share Buttons | Social Media Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background -->
+    <div class="background">
+        <div class="floating-particles"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">Share Button Animations</h1>
+            <p class="subtitle">Beautiful animated social media share buttons with stunning effects</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Demo Content Card -->
+            <div class="content-card">
+                <div class="content-header">
+                    <div class="content-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="content-info">
+                        <h3>Amazing Web Development Tutorial</h3>
+                        <p>Learn how to create stunning animations and interactive web experiences with modern CSS and
+                            JavaScript techniques.</p>
+                        <div class="content-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-eye"></i>
+                                15.2K views
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-heart"></i>
+                                1.8K likes
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                2 hours ago
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Share Section -->
+                <div class="share-section">
+                    <h4 class="share-title">Share this awesome content</h4>
+
+                    <!-- Style 1: Classic Hover Expand -->
+                    <div class="share-group">
+                        <h5 class="group-title">Classic Hover Expand</h5>
+                        <div class="share-buttons classic-style">
+                            <button class="share-btn facebook" data-platform="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                <span class="btn-text">Facebook</span>
+                                <div class="hover-effect"></div>
+                            </button>
+
+                            <button class="share-btn twitter" data-platform="twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span class="btn-text">Twitter</span>
+                                <div class="hover-effect"></div>
+                            </button>
+
+                            <button class="share-btn linkedin" data-platform="linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span class="btn-text">LinkedIn</span>
+                                <div class="hover-effect"></div>
+                            </button>
+
+                            <button class="share-btn pinterest" data-platform="pinterest">
+                                <i class="fab fa-pinterest"></i>
+                                <span class="btn-text">Pinterest</span>
+                                <div class="hover-effect"></div>
+                            </button>
+
+                            <button class="share-btn whatsapp" data-platform="whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span class="btn-text">WhatsApp</span>
+                                <div class="hover-effect"></div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Style 2: Floating Action Button Style -->
+                    <div class="share-group">
+                        <h5 class="group-title">Floating Action Style</h5>
+                        <div class="fab-share-container">
+                            <button class="fab-main-btn" id="fabMainBtn">
+                                <i class="fas fa-share-alt"></i>
+                                <span class="fab-text">Share</span>
+                            </button>
+                            <div class="fab-options" id="fabOptions">
+                                <button class="fab-option facebook" data-platform="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <div class="fab-tooltip">Facebook</div>
+                                </button>
+                                <button class="fab-option twitter" data-platform="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <div class="fab-tooltip">Twitter</div>
+                                </button>
+                                <button class="fab-option instagram" data-platform="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <div class="fab-tooltip">Instagram</div>
+                                </button>
+                                <button class="fab-option linkedin" data-platform="linkedin">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <div class="fab-tooltip">LinkedIn</div>
+                                </button>
+                                <button class="fab-option telegram" data-platform="telegram">
+                                    <i class="fab fa-telegram-plane"></i>
+                                    <div class="fab-tooltip">Telegram</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Style 3: Morphing Share Button -->
+                    <div class="share-group">
+                        <h5 class="group-title">Morphing Animation</h5>
+                        <div class="morphing-share-container">
+                            <button class="morphing-btn" id="morphingBtn">
+                                <div class="morph-content">
+                                    <i class="fas fa-share-nodes morph-icon"></i>
+                                    <span class="morph-text">Click to Share</span>
+                                </div>
+                            </button>
+                            
+                            <div class="morph-options" id="morphOptions">
+                                <button class="morph-option facebook" data-platform="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button class="morph-option twitter" data-platform="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button class="morph-option youtube" data-platform="youtube">
+                                    <i class="fab fa-youtube"></i>
+                                </button>
+                                <button class="morph-option linkedin" data-platform="linkedin">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                                <button class="morph-option whatsapp" data-platform="whatsapp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Style 4: Slide Out Animation -->
+                    <div class="share-group">
+                        <h5 class="group-title">Slide Out Animation</h5>
+                        <div class="slide-share-container">
+                            <button class="slide-trigger" id="slideTrigger">
+                                <i class="fas fa-share"></i>
+                                <span>Share Now</span>
+                            </button>
+                            <div class="slide-options" id="slideOptions">
+                                <button class="slide-option reddit" data-platform="reddit">
+                                    <i class="fab fa-reddit-alien"></i>
+                                    <span>Reddit</span>
+                                </button>
+                                <button class="slide-option discord" data-platform="discord">
+                                    <i class="fab fa-discord"></i>
+                                    <span>Discord</span>
+                                </button>
+                                <button class="slide-option email" data-platform="email">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </button>
+                                <button class="slide-option copy" data-platform="copy">
+                                    <i class="fas fa-copy"></i>
+                                    <span>Copy Link</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Style 5: Circular Spread Animation -->
+                    <div class="share-group">
+                        <h5 class="group-title">Circular Spread</h5>
+                        <div class="circular-share-container">
+                            <button class="circular-main" id="circularMain">
+                                <i class="fas fa-share-alt"></i>
+                                <div class="pulse-ring"></div>
+                            </button>
+                            <div class="circular-options" id="circularOptions">
+                                <button class="circular-option facebook" data-platform="facebook" style="--angle: 0deg">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button class="circular-option twitter" data-platform="twitter" style="--angle: 45deg">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button class="circular-option instagram" data-platform="instagram"
+                                    style="--angle: 90deg">
+                                    <i class="fab fa-instagram"></i>
+                                </button>
+                                <button class="circular-option linkedin" data-platform="linkedin"
+                                    style="--angle: 135deg">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                                <button class="circular-option youtube" data-platform="youtube" style="--angle: 180deg">
+                                    <i class="fab fa-youtube"></i>
+                                </button>
+                                <button class="circular-option pinterest" data-platform="pinterest"
+                                    style="--angle: 225deg">
+                                    <i class="fab fa-pinterest"></i>
+                                </button>
+                                <button class="circular-option whatsapp" data-platform="whatsapp"
+                                    style="--angle: 270deg">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                                <button class="circular-option telegram" data-platform="telegram"
+                                    style="--angle: 315deg">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Style 6: Magnetic Hover Effect -->
+                    <div class="share-group">
+                        <h5 class="group-title">Magnetic Hover Effect</h5>
+                        <div class="magnetic-share-buttons">
+                            <button class="magnetic-btn tiktok" data-platform="tiktok">
+                                <div class="magnetic-bg"></div>
+                                <i class="fab fa-tiktok"></i>
+                                <span>TikTok</span>
+                                <div class="magnetic-particles"></div>
+                            </button>
+
+                            <button class="magnetic-btn snapchat" data-platform="snapchat">
+                                <div class="magnetic-bg"></div>
+                                <i class="fab fa-snapchat-ghost"></i>
+                                <span>Snapchat</span>
+                                <div class="magnetic-particles"></div>
+                            </button>
+
+                            <button class="magnetic-btn github" data-platform="github">
+                                <div class="magnetic-bg"></div>
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                                <div class="magnetic-particles"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Share Analytics Panel -->
+            <div class="analytics-panel" id="analyticsPanel">
+                <div class="panel-header">
+                    <h3>Share Analytics</h3>
+                    <button class="panel-close" id="panelClose">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="panel-content">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="totalShares">0</div>
+                            <div class="stat-label">Total Shares</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="topPlatform">-</div>
+                            <div class="stat-label">Top Platform</div>
+                        </div>
+                    </div>
+                    <div class="platform-stats" id="platformStats"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Share Success Modal -->
+    <div class="share-modal" id="shareModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Shared Successfully!</h3>
+            <p id="shareMessage">Your content has been shared.</p>
+            <button class="modal-close" id="modalClose">Got it!</button>
+        </div>
+        <div class="modal-overlay"></div>
+    </div>
+
+    <!-- Notification Container -->
+    <div class="notification-container" id="notificationContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
